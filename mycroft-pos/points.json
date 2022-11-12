@@ -1,0 +1,17 @@
+[
+  {
+    "society": "taxi",
+    "Inventory": [],
+    "BuyZone": {
+      "pos": {
+        "x": 1966.5640869140626,
+        "y": 3748.4873046875,
+        "z": 32.3437614440918
+      },
+      "heading": 312.6186218261719
+    },
+    "Price": 0,
+    "StoreName": "Can",
+    "JobManagement": ["taxi"]
+  }
+]
