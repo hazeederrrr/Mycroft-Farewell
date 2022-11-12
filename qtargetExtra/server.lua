@@ -5,10 +5,6 @@ RegisterNetEvent("esx-phone:giveContactInfo", function(target)
     TriggerClientEvent("client:giveContactInfo", target, {name = xPlayer.name, number = PlayerData.phoneNumber})
 end)
 
-RegisterCommand("resetdrunk", function(source)
-    TriggerClientEvent('esx_status:set', source, 'drunk', -1)
-end)
-
 ESX.RegisterCommand('givewl', 'user', function(xPlayer, args, showError)
 	if xPlayer.job.name == "police" or xPlayer.group == "admin" then
 		TriggerEvent('esx_license:addLicense', args.playerId.source, 'weapon')

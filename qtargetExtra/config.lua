@@ -2,29 +2,6 @@ Config = {}
 
 Config.Healing = 0 -- // If this is 0, then its disabled.. Default: 3.. That means, if a person lies in a bed, then he will get 1 health every 3 seconds.
 
-Config.BlacklistedObjects = {
-	"prop_forsale_dyn_01",
-	"prop_forsale_dyn_02",
-	"prop_forsale_lenny_01",
-	"prop_forsale_lrg_01",
-	"prop_forsale_lrg_02",
-	"prop_forsale_lrg_05",
-	"prop_forsale_lrg_06",
-	"prop_forsale_lrg_07",
-	"prop_forsale_lrg_10",
-	"prop_forsale_sign_02",
-	"prop_forsale_sign_03",
-	"prop_forsale_sign_04",
-	"prop_forsale_sign_05",
-	"prop_forsale_sign_06",
-	"prop_forsale_sign_07",
-	"prop_forsale_sign_fs",
-	"prop_forsale_sign_jb",
-	"prop_forsalejr2",
-	"prop_forsalejr3",
-	"prop_forsalejr4"
-}
-
 Config.objects = {
 	SitAnimation = {anim='PROP_HUMAN_SEAT_CHAIR_MP_PLAYER'},
 	BedBackAnimation = {dict='anim@gangops@morgue@table@', anim='ko_front'},

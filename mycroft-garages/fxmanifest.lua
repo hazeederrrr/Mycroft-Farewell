@@ -3,7 +3,7 @@ game 'gta5'
 
 name "mycroft-garages"
 description "A simple Garage resource for ESX Legacy"
-author "Mycroft - Vice President Of ESX-Framework"
+author "Mycroft"
 version "0.1.0"
 
 shared_scripts {
